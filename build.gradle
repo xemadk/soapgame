@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'oscar.algar'
+version '1.0'
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
